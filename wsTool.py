@@ -39,7 +39,7 @@ def on_close(ws):
     print(ws)
     print("### closed ###")
 
-# websocket连接？？？？？
+# websocket连接
 def ws(ws_host):
     print(ws_host)
     websocket.enableTrace(True)
